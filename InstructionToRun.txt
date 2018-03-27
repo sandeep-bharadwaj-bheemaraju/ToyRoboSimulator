@@ -1,0 +1,20 @@
+
+                      INSTRUCTIONS TO RUN TOY ROBOT SIMULATOR
+
+PRE-REQUISITES:
+Software requirements:
+	1. Java JDK 1.7 or above installation is required and should be configured in classpath
+	2. Maven 3.3.9 (Preferable)  installation is required and should be configured in classpath
+
+HOW TO RUN TOY ROBOT SIMULATOR:
+Steps to Run Toy Robot Simulator:
+	1. Run the pom.xml to generate the artifacts.
+	2. Copy ToyRoboSimulator-jar-with-dependencies.jar to a folder (For example, D:\ToyRobotSimulator)
+	3. Copy log4j.properties to the same folder mentioned in step 2 (D:\ToyRobotSimulator)
+	4. Copy toy.robo.simulator.properties to the same folder mentioned in step 2 (D:\ToyRobotSimulator)
+	5. Go to the folder location (D:\ToyRobotSimulator) and open command prompt
+	6. Run the command to execute on jar
+   		For Example,
+   		D:\ToyRobotSimulator>java -jar ToyRoboSimulator-jar-with-dependencies.jar   
+
+Note: Logs will be generated in logs folder of the ToyRobotSimulator (D:\ToyRobotSimulator\logs)
