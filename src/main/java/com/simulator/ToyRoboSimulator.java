@@ -24,13 +24,8 @@ public class ToyRoboSimulator
 		
 		try
 		{
-			//For Development
-			LogAppUtil.getInstance("D:\\Sandeep\\Work\\MyWorkspace\\ToyRoboSimulator\\src\\main\\resources\\log4j.properties");
-			Map<String,String> propertyMap = PropertyReader.INSTANCE.loadProperty("D:\\Sandeep\\Work\\MyWorkspace\\ToyRoboSimulator\\src\\main\\resources\\toy.robo.simulator.properties");
-			
-			//For standalone Jar
-			//LogAppUtil.getInstance("log4j.properties");
-			//Map<String,String> propertyMap = PropertyReader.INSTANCE.loadProperty("toy.robo.simulator.properties");
+			LogAppUtil.getInstance("./log4j.properties");
+			Map<String,String> propertyMap = PropertyReader.INSTANCE.loadProperty("./toy.robo.simulator.properties");
 			
 			Commander commander = null;
 			
